@@ -1,0 +1,77 @@
+2022-02-18 10:43:34,959 INFO Rudi_API init
+2022-02-18 10:48:44,414 INFO Rudi_API init
+2022-02-18 10:56:15,877 INFO Rudi_API init
+2022-02-18 11:53:40,565 INFO Rudi_API init
+2022-02-18 11:53:40,566 INFO config local_database=rm_proxy_node.db
+2022-02-18 11:53:40,566 INFO config log_server=https://rm.rudi.irisa.fr/
+2022-02-18 11:53:40,566 INFO config log_server=https://rm.rudi.irisa.fr/media/logs/
+2022-02-18 11:53:40,566 INFO config verify_certificate=True
+2022-02-18 11:53:40,566 INFO config api_server=https://rm.rudi.irisa.fr/api/
+2022-02-18 11:53:40,566 INFO config contacts_path=v1/contacts
+2022-02-18 11:53:40,566 INFO config organizations_path=v1/organizations
+2022-02-18 11:53:40,566 INFO config resources_path=v1/resources
+2022-02-18 11:53:40,566 INFO config media_server=https://rm.rudi.irisa.fr/media/
+2022-02-18 11:53:40,566 INFO config post_media_server=https://rm.rudi.irisa.fr/media/post
+2022-02-18 11:53:40,567 INFO config connector_media_server=https://rm.rudi.irisa.fr/media/download/
+2022-02-18 11:53:40,567 INFO config datasetstatus=dataset_status.json
+2022-02-18 11:53:40,567 INFO config datasetstatusdir=./_tmp/rudy_proxy/
+2022-02-18 11:53:40,567 INFO config delay=5
+2022-02-18 11:53:40,567 INFO config delay_tempsreel=5
+2022-02-18 11:53:40,567 INFO config tempsreel_designation=temps-reel
+2022-02-18 11:53:40,567 INFO config contact_name=SIG Rennes Métropole
+2022-02-18 11:53:40,567 INFO config email=contact-sig@rm.fr
+2022-02-18 11:53:40,567 INFO config organization_name=Rennes Métropole
+2022-02-18 11:53:40,567 INFO config organization_address=Rennes Métropole
+2022-02-18 11:53:40,568 INFO config organization_id=a3cea477-fbf6-4ef5-b0cd-0f0496e061f2
+2022-02-18 11:53:40,568 INFO config contact_id=1aa9d609-6054-4813-a50e-2be18e297ca8
+2022-02-18 11:53:40,577 INFO forgeToken
+2022-02-18 11:53:40,581 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-18 11:53:40,862 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/admin/enum/fileExtensions HTTP/1.1" 401 128
+2022-02-18 11:53:40,865 WARNING getListFileExtension Failed
+2022-02-18 11:53:40,865 INFO No Datasetstatus Loaded
+2022-02-18 11:53:40,865 INFO checkServer
+2022-02-18 11:53:40,867 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-18 11:53:41,104 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/ HTTP/1.1" 302 0
+2022-02-18 11:53:42,098 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/v1/resources HTTP/1.1" 200 395140
+2022-02-18 11:53:42,139 INFO forgeToken
+2022-02-18 11:53:42,141 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-18 11:53:42,237 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/v1/resources?local_id=amenagements-velo-et-zones-de-circulation-apaisee HTTP/1.1" 200 4294
+2022-02-18 11:53:42,242 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-18 11:53:42,302 DEBUG https://rm.rudi.irisa.fr:443 "GET /media/download/b3eca8d1-ee09-4335-aedd-7788bd4457ef HTTP/1.1" 200 3868652
+2022-02-24 12:07:18,156 INFO Rudi_API init
+2022-02-24 12:07:18,156 INFO config local_database=rm_proxy_node.db
+2022-02-24 12:07:18,156 INFO config log_server=https://rm.rudi.irisa.fr/
+2022-02-24 12:07:18,156 INFO config log_server=https://rm.rudi.irisa.fr/media/logs/
+2022-02-24 12:07:18,156 INFO config verify_certificate=True
+2022-02-24 12:07:18,156 INFO config api_server=https://rm.rudi.irisa.fr/api/
+2022-02-24 12:07:18,157 INFO config contacts_path=v1/contacts
+2022-02-24 12:07:18,157 INFO config organizations_path=v1/organizations
+2022-02-24 12:07:18,157 INFO config resources_path=v1/resources
+2022-02-24 12:07:18,157 INFO config media_server=https://rm.rudi.irisa.fr/media/
+2022-02-24 12:07:18,157 INFO config post_media_server=https://rm.rudi.irisa.fr/media/post
+2022-02-24 12:07:18,157 INFO config connector_media_server=https://rm.rudi.irisa.fr/media/download/
+2022-02-24 12:07:18,157 INFO config datasetstatus=dataset_status.json
+2022-02-24 12:07:18,157 INFO config datasetstatusdir=./_tmp/rudy_proxy/
+2022-02-24 12:07:18,157 INFO config delay=5
+2022-02-24 12:07:18,157 INFO config delay_tempsreel=5
+2022-02-24 12:07:18,158 INFO config tempsreel_designation=temps-reel
+2022-02-24 12:07:18,158 INFO config contact_name=SIG Rennes Métropole
+2022-02-24 12:07:18,158 INFO config email=contact-sig@rm.fr
+2022-02-24 12:07:18,158 INFO config organization_name=Rennes Métropole
+2022-02-24 12:07:18,158 INFO config organization_address=Rennes Métropole
+2022-02-24 12:07:18,158 INFO config organization_id=a3cea477-fbf6-4ef5-b0cd-0f0496e061f2
+2022-02-24 12:07:18,158 INFO config contact_id=1aa9d609-6054-4813-a50e-2be18e297ca8
+2022-02-24 12:07:18,159 INFO forgeToken
+2022-02-24 12:07:18,162 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-24 12:07:18,232 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/admin/enum/fileExtensions HTTP/1.1" 401 128
+2022-02-24 12:07:18,234 WARNING getListFileExtension Failed
+2022-02-24 12:07:18,234 INFO No Datasetstatus Loaded
+2022-02-24 12:07:18,235 INFO checkServer
+2022-02-24 12:07:18,236 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-24 12:07:18,434 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/ HTTP/1.1" 302 0
+2022-02-24 12:07:19,232 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/v1/resources HTTP/1.1" 200 395140
+2022-02-24 12:07:19,266 INFO forgeToken
+2022-02-24 12:07:19,268 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-24 12:07:19,331 DEBUG https://rm.rudi.irisa.fr:443 "GET /api/v1/resources?local_id=amenagements-velo-et-zones-de-circulation-apaisee HTTP/1.1" 200 4294
+2022-02-24 12:07:19,335 DEBUG Starting new HTTPS connection (1): rm.rudi.irisa.fr:443
+2022-02-24 12:07:19,395 DEBUG https://rm.rudi.irisa.fr:443 "GET /media/download/b3eca8d1-ee09-4335-aedd-7788bd4457ef HTTP/1.1" 200 3868652
